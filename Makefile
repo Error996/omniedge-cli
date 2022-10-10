@@ -1,4 +1,4 @@
-BUILD_ENV ?= "dev"
+BUILD_ENV ?= "prod"
 
 build: go.sum generate
 	rm -rf ./out
