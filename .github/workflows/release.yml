@@ -43,5 +43,3 @@ jobs:
           file_glob: true
           overwrite: true
           file: omniedge-${{ github.ref_name }}-freebsd-13.1.zip
-          tag: ${{ github.ref }}
-  
