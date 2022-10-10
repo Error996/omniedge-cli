@@ -1,9 +1,9 @@
 name: omniedge build
 
 on:
-  push:
-    tags:
-      - 'v*.*.*'
+  workflow_dispatch:
+  schedule:
+    - cron: 0 */24 * * *
 jobs:
   build-binary:
     name: Docker cross build
